@@ -4452,23 +4452,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\MarkoPC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Programsko\\Programsko\\Programsko.csproj",
+      "projectUniqueName": "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\Programsko.csproj",
       "projectName": "Programsko",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Programsko\\Programsko\\Programsko.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Programsko\\Programsko\\obj\\",
+      "projectPath": "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\Programsko.csproj",
+      "packagesPath": "C:\\Users\\MarkoPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MarkoPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

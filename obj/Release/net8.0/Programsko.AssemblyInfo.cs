@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Programsko-fe0157c0-1618-4e16-b793-fbe3cbc9924b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Programsko")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31afddf6fc6c6af85f59d5d04722dc1d5f033273")]
 [assembly: System.Reflection.AssemblyProductAttribute("Programsko")]
