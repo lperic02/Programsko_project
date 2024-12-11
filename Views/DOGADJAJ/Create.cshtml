@@ -1,0 +1,83 @@
+﻿@model Programsko.Models.DOGADJAJ
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DOGADJAJ</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DATUM" class="control-label"></label>
+                <input asp-for="DATUM" class="form-control" />
+                <span asp-validation-for="DATUM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KONTAKT" class="control-label"></label>
+                <input asp-for="KONTAKT" class="form-control" />
+                <span asp-validation-for="KONTAKT" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TIP_DOGADJAJA" class="control-label"></label>
+                <input asp-for="TIP_DOGADJAJA" class="form-control" />
+                <span asp-validation-for="TIP_DOGADJAJA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_DG" class="control-label"></label>
+                <input asp-for="ID_DG" class="form-control" />
+                <span asp-validation-for="ID_DG" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_DC" class="control-label"></label>
+                <input asp-for="ID_DC" class="form-control" />
+                <span asp-validation-for="ID_DC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_DS" class="control-label"></label>
+                <input asp-for="ID_DS" class="form-control" />
+                <span asp-validation-for="ID_DS" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_OSTALO" class="control-label"></label>
+                <input asp-for="ID_OSTALO" class="form-control" />
+                <span asp-validation-for="ID_OSTALO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_IZVJESTAJ" class="control-label"></label>
+                <input asp-for="ID_IZVJESTAJ" class="form-control" />
+                <span asp-validation-for="ID_IZVJESTAJ" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_AUTOMOBILI" class="control-label"></label>
+                <input asp-for="ID_AUTOMOBILI" class="form-control" />
+                <span asp-validation-for="ID_AUTOMOBILI" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_SALON" class="control-label"></label>
+                <input asp-for="ID_SALON" class="form-control" />
+                <span asp-validation-for="ID_SALON" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_CATERING" class="control-label"></label>
+                <input asp-for="ID_CATERING" class="form-control" />
+                <span asp-validation-for="ID_CATERING" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

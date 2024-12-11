@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Programsko.Models.DOGADJAJ>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DATUM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KONTAKT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TIP_DOGADJAJA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_DG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_DC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_DS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_OSTALO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_IZVJESTAJ)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_AUTOMOBILI)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_SALON)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_CATERING)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATUM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KONTAKT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TIP_DOGADJAJA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_DG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_DC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_DS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_OSTALO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_IZVJESTAJ)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_AUTOMOBILI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_SALON)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_CATERING)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

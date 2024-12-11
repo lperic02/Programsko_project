@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\Programsko.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\New folder\\Programsko_project\\Programsko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\Programsko.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\New folder\\Programsko_project\\Programsko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\Programsko.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\New folder\\Programsko_project\\Programsko.csproj",
         "projectName": "Programsko",
-        "projectPath": "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\Programsko.csproj",
-        "packagesPath": "C:\\Users\\MarkoPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoPC\\source\\repos\\Programsko_project\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\New folder\\Programsko_project\\Programsko.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\New folder\\Programsko_project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MarkoPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,6 +69,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
